@@ -6,7 +6,7 @@ This Dockerfile can build containers capable to use systemd.
 Branches
 --------
 
-This repository has multiple branches that relate to Fedora versions.
+This repository has multiple branches that relate to Ubuntu versions.
 
 |Branch |Ubuntu Version |Docker image tag|
 |-------|---------------|----------------|
@@ -27,5 +27,5 @@ docker run \
   --tty \
   --privileged \
   --volume /sys/fs/cgroup:/sys/fs/cgroup:ro \
-  robertdebock/docker-ubuntu-systemd
+  robertdebock/ubuntu
 ```
