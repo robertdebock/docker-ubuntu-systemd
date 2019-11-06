@@ -11,8 +11,6 @@ This repository has multiple branches that relate to Ubuntu versions.
 |Branch |Ubuntu Version |Docker image tag|
 |-------|---------------|----------------|
 |master |latest (18.04) |latest          |
-|devel  |devel (19.10)  |devel           |
-|rolling|rolling (19.04)|rolling         |
 
 Pull strategy
 -------------
