@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu
 LABEL maintainer="Robert de Bock"
 ENV container docker
 
