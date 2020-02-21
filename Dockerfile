@@ -1,5 +1,7 @@
 FROM ubuntu
-LABEL maintainer="Robert de Bock"
+
+LABEL maintainer="Robert de Bock <robert@meinit.nl>"
+
 ENV container docker
 
 # Enable apt repositories.
@@ -23,4 +25,5 @@ RUN apt-get update ; \
     rm -f /lib/systemd/system/systemd-update-utmp*
 
 VOLUME [ "/sys/fs/cgroup" ]
+
 CMD ["/lib/systemd/systemd"]
