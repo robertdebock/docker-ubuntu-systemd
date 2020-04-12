@@ -3,6 +3,8 @@ Docker Ubuntu Systemd
 
 This Dockerfile can build containers capable to use systemd.
 
+[![ubuntu build status](https://img.shields.io/docker/cloud/build/robertdebock/ubuntu.svg)](https://hub.docker.com/repository/docker/robertdebock/ubuntu)
+
 Branches
 --------
 
