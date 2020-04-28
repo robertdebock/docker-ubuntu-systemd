@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:1804
 
 LABEL maintainer="Robert de Bock <robert@meinit.nl>"
 
@@ -9,7 +9,7 @@ RUN sed -i 's/# deb/deb/g' /etc/apt/sources.list
 
 # Enable systemd.
 RUN apt-get update ; \
-    apt-get install -y systemd systemd-sysv ; \
+    apt-get install -y systemd ; \
     apt-get clean ; \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* ; \
     cd /lib/systemd/system/sysinit.target.wants/ ; \
