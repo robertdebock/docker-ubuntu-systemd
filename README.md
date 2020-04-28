@@ -12,7 +12,7 @@ This repository one branche that relate to Ubuntu a version.
 
 |Branch |Ubuntu Version |Docker image tag|
 |-------|---------------|----------------|
-|master |latest (18.04) |latest          |
+|master |latest (20.04) |latest          |
 
 Manually starting
 -----------------
