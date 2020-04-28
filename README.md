@@ -15,6 +15,11 @@ This repository one branche that relate to Ubuntu a version.
 |master |latest (20.04)        |latest          |
 |1804   |bionic beaver (18.04) |1804            |
 
+Pull strategy
+-------------
+
+The different branches are **not** merged, they live as individual branches.
+
 Manually starting
 -----------------
 
