@@ -1,4 +1,4 @@
-FROM ubuntu:1804
+FROM ubuntu:18.04
 
 LABEL maintainer="Robert de Bock <robert@meinit.nl>"
 
