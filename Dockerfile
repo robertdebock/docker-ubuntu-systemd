@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:bionic
 
 LABEL maintainer="Robert de Bock <robert@meinit.nl>"
 
