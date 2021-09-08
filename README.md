@@ -14,7 +14,6 @@ This repository one branche that relate to Ubuntu a version.
 |-------|---------------------|----------------|
 |master |focal fossa (2004)   |focal           |
 |bionic |bionic beaver (1804) |bionic          |
-|xenial |xenial xerus (1604)  |xenial          |
 
 Here are Ubuntu's [supported versions](https://wiki.ubuntu.com/Releases).
 
