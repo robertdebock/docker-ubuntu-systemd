@@ -12,9 +12,8 @@ This repository one branche that relate to Ubuntu a version.
 
 |Branch |Ubuntu Version        |Docker image tag|
 |-------|----------------------|----------------|
-|master |focal fossa (2004)   |focal           |
-|bionic |bionic beaver (1804) |bionic          |
-|xenial |xenial xerus (1604)  |xenial          |
+|master |focal fossa (2004)    |focal           |
+|bionic |bionic beaver (1804)  |bionic          |
 
 Pull strategy
 -------------
