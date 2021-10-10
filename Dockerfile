@@ -1,7 +1,7 @@
 FROM ubuntu
 
 LABEL maintainer="Robert de Bock <robert@meinit.nl>"
-LABEL build_date="2021-10-07"
+LABEL build_date="2021-10-10"
 
 ENV container docker
 
