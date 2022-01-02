@@ -1,7 +1,7 @@
-FROM ubuntu
+FROM ubuntu:focal
 
 LABEL maintainer="Robert de Bock <robert@meinit.nl>"
-LABEL build_date="2021-12-30"
+LABEL build_date="2022-01-02"
 
 ENV container docker
 
