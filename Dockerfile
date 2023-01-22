@@ -1,7 +1,7 @@
 FROM ubuntu:bionic
 
 LABEL maintainer="Robert de Bock <robert@meinit.nl>"
-LABEL build_date="2022-05-10"
+LABEL build_date="2023-01-20"
 
 ENV container docker
 
