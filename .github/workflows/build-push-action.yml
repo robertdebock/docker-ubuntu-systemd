@@ -1,3 +1,4 @@
+---
 name: build-push
 
 on:
@@ -22,7 +23,8 @@ jobs:
         run: echo "tag=${short/master/latest}" >> "${GITHUB_ENV}"
       - name: Build and push
         id: docker_build
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v6
         with:
           push: true
           tags: robertdebock/ubuntu:${{ env.tag }}
+          platforms: "linux/amd64,linux/arm64"
