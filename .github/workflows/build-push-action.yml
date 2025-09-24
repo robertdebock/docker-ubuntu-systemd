@@ -27,4 +27,4 @@ jobs:
         with:
           push: true
           tags: robertdebock/ubuntu:${{ env.tag }}
-          platforms: "linux/amd64,linux/arm64/v8"
+          platforms: "linux/amd64,linux/arm64"
